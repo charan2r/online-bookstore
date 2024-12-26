@@ -1,0 +1,194 @@
+.order-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+  .place-order {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .add-btn {
+    background-color:  #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #4b014b;
+  }
+  
+  .payment-method {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-image {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .cart-summary-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:100%;
+    max-width: 600px;
+  }
+  
+  .cart-summary-container h2 {
+    margin-bottom: 20px;
+  }
+  
+.cart-summary-container button{
+    padding: 10px;
+    margin: 10px;
+    right:40px;
+}
+.cart-summary-container table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10 10px;
+}
+  
+
+.cart-summary-container td {
+    border: none;
+    padding: 18px;
+    margin: 20px;
+    text-align: left;
+}
+  .cart-summary-container tr {
+    border-bottom: none;
+}
+.cart-summary-container th {
+  border-right: none; 
+  padding: 8px;
+}
+  .order-btn {
+    background-color:  #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-btn:hover {
+    background-color: #4b014b;
+  }
+  .add-address-popup {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .add-address-popup.visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Popup Shipping Address */
+.add-address-popup {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius:20px;
+    padding: 30px;
+    z-index: 1000;
+  }
+  
+  .add-address-popup.visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .add-address-popup h3 {
+    margin-bottom: 10px;
+  }
+  
+  .add-address-popup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-address-popup label {
+    margin-bottom: 5px;
+  }
+  
+  .add-address-popup .add-text {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-address-popup textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize:horizontal;
+}
+  
+  .add-address-popup .add-confirm {
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-address-popup .add-confirm:hover {
+    background-color: #4b014b;
+  }
+  
+  .add-address-popup .close-popup {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .add-address-popup .close-popup:hover {
+    background-color: #999;
+  }
