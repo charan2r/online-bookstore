@@ -1,0 +1,65 @@
+.explore-book {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+  
+.explore-book h1 {
+    color: #49243E;
+    font-weight: 500;
+}
+  
+.book-list {
+    display: flex;
+    overflow-x: auto;
+}
+  
+.book {
+    position: relative;
+    margin-right: 40px;
+}
+  
+.book img {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px; 
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border: 15px solid transparent;
+    border-image: linear-gradient(45deg, #49243E), rgb(0, 0, 0) 1;
+}
+  
+.book img:hover {
+    transform: scale(1.1);
+}
+  
+.book-info {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 10px 10px;
+}
+  
+.book-info p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.explore-book hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #49243E;
+    border: none;
+}
+.exlpore-book-book-list .active {
+    border: 4px solid #49243E;
+    padding: 2px;
+}

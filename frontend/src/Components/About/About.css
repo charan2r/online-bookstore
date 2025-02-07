@@ -1,0 +1,23 @@
+.about-us-container {
+    padding: 20px;;
+    max-width: 800px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(31, 23, 23, 0.1);
+  }
+  
+  .about-us-container h2 {
+    color: #800080;
+    align-items: center;
+  }
+  
+  .about-us-container p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  

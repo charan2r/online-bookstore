@@ -1,0 +1,132 @@
+h2 {
+    margin-bottom: 15px;
+    color: #800080;
+}
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.cart-items-container {
+    flex: 1;
+    width: 100%;
+}
+  
+.cart-summary-container {
+    flex: 1;
+    margin-left: 20px;
+}
+  
+.cart-summary > div {
+    margin-bottom: 20px;
+}
+  
+.checkout-btn,
+.shop-more-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: calc(70% - 15px);
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+  }
+  
+.checkout-btn {
+    margin-left: 10px;
+}
+  
+.checkout-btn:hover,
+.shop-more-btn:hover {
+    background-color: #4b014b;
+}
+  
+.cart-items-container ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.cart-items-container li {
+    position:relative;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+.item-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: right;
+    /* flex-direction: column; */
+}
+  
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+.item-author,
+.item-isbn {
+  margin-top: 5px; 
+}
+
+.item-details {
+    margin-left: 20px;
+}
+
+.icon_bin {
+    position:relative;
+    right: 8px; 
+    top: 15px; 
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px; 
+}
+.quantity-container {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-container button {
+    background-color: #ccc;
+    border: none;
+    border-radius: 50px;
+    color: #800080;
+    padding: 8px;
+    margin: 10px;
+}
+.cart-summary-container td{
+    padding: 18px;
+    margin: 20px;
+}
+.cart-summary-container button{
+    padding: 10px;
+    margin: 10px;
+    right:40px;
+}
+.cart-summary-container table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10 10px;
+}
+  
+
+.cart-summary-container td {
+    border: none;
+    padding: 18px;
+    text-align: left;
+}
+  .cart-summary-container tr {
+    border-bottom: none;
+}
+.cart-summary-container th {
+  border-right: none; 
+  padding: 8px;
+}

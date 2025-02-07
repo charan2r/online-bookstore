@@ -1,0 +1,30 @@
+.Footer{
+    color: aliceblue;
+    background-color: #646060;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 8vw;
+    padding-top: 80px;
+}
+.Footer-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 80px;
+}
+.Footer-content-left , .Footer-content-right , .Footer-content-center{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:  20px;
+}
+.Footer-content-left li, .Footer-content-right li, .Footer-content-center li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.Footer-content-left h2, .Footer-content-right h2, .Footer-content-center h2{
+    list-style: none;
+    margin-bottom: 10px;
+}
