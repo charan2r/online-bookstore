@@ -12,7 +12,6 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer'; 
 
-import Content from './Content';
 
 const App = () => {
   return (
@@ -22,7 +21,6 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/' element={<Products />} />
-            <Route path='/' element={<Content/>}/>
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
             <Route path='/cart' element={<Cart />} />
