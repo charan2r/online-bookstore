@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div>
-          <h2 className='title'>Book Vault</h2>
+          <h2 className='title'>Epic Reads</h2>
         </div>
 
         <ul className = 'navabr-menu'>
