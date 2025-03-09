@@ -9,12 +9,12 @@ import cart from '../../assets/Vectorcart.svg'
 //import profile from '../../assets/profile.jpg'
 
 const Navbar = () => {
-
   const[Category,setCategory] = useState("home");
+  
   return (
     <div className='navbar'>
         <div>
-          <h2 className='title'>Bookstore</h2>
+          <h2 className='title'>Book Vault</h2>
         </div>
 
         <ul className = 'navabr-menu'>
